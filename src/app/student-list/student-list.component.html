@@ -1,0 +1,12 @@
+<h3> List of Students </h3>
+
+
+<ul>
+    <li *ngFor="let student of students">
+
+        <h5> {{student.studentname}} &nbsp;&nbsp;&nbsp; <button (click)='editStudent(student._id)'> Edit 
+            &nbsp;&nbsp;&nbsp;</button> <button (click)='deleteStudent(student._id)'> Delete</button>
+        </h5>
+    </li>
+
+</ul>

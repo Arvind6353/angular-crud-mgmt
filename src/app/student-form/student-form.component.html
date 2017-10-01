@@ -1,0 +1,8 @@
+<h4> Create form </h4>
+
+<form (ngSubmit)="createStudent()">
+    <label> Enter Student Name : </label> <input type="text" [(ngModel)]="studentname" [ngModelOptions]="{standalone: true}" />
+
+    <button type="submit"> Create </button>
+
+</form>
